@@ -28,7 +28,7 @@ jobs:
 
       env:
 
-        NGROK_AUTH_TOKEN: $2QWLeRx4xjuEUp2weTtqsCqL2Qr_7YV2Hnf8gfYVZHksWoVgM
+        NGROK_AUTH_TOKEN: 2QWLeRx4xjuEUp2weTtqsCqL2Qr_7YV2Hnf8gfYVZHksWoVgM
     - name: Enable TS
 
       run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
